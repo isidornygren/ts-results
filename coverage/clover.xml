@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1564399994586" clover="3.2.0">
+  <project timestamp="1564399994586" name="All files">
+    <metrics statements="35" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="30" coveredmethods="30" elements="65" coveredelements="65" complexity="0" loc="35" ncloc="35" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="/Users/isidor/Dabapps/ts-results/src/index.ts">
+      <metrics statements="35" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="30" coveredmethods="30"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="86" count="6" type="stmt"/>
+      <line num="87" count="6" type="stmt"/>
+      <line num="91" count="1" type="stmt"/>
+      <line num="95" count="1" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
+      <line num="103" count="1" type="stmt"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="111" count="1" type="stmt"/>
+      <line num="115" count="1" type="stmt"/>
+      <line num="119" count="1" type="stmt"/>
+      <line num="123" count="1" type="stmt"/>
+      <line num="127" count="1" type="stmt"/>
+      <line num="131" count="1" type="stmt"/>
+      <line num="135" count="1" type="stmt"/>
+      <line num="139" count="1" type="stmt"/>
+      <line num="143" count="1" type="stmt"/>
+      <line num="147" count="1" type="stmt"/>
+      <line num="151" count="6" type="stmt"/>
+      <line num="152" count="6" type="stmt"/>
+      <line num="156" count="2" type="stmt"/>
+      <line num="160" count="2" type="stmt"/>
+      <line num="164" count="1" type="stmt"/>
+      <line num="168" count="1" type="stmt"/>
+      <line num="172" count="1" type="stmt"/>
+      <line num="176" count="1" type="stmt"/>
+      <line num="180" count="1" type="stmt"/>
+      <line num="184" count="1" type="stmt"/>
+      <line num="188" count="1" type="stmt"/>
+      <line num="192" count="1" type="stmt"/>
+      <line num="196" count="1" type="stmt"/>
+      <line num="200" count="1" type="stmt"/>
+      <line num="204" count="1" type="stmt"/>
+      <line num="208" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

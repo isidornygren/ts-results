@@ -1,0 +1,37 @@
+{
+  "name": "ts-results",
+  "version": "0.0.1",
+  "description": "Results object for typescript",
+  "scripts": {
+    "tests": "jest",
+    "typecheck": "tsc --noEmit --project tsconfig.json",
+    "document": "typedoc --theme markdown --hideSources --hideBreadcrumbs src/",
+    "lint": "npm run typecheck && tslint --project tsconfig.json 'src/**/*.ts?(x)'",
+    "test": "npm run prettier-check && npm run lint && npm run tests -- --runInBand --coverage",
+    "prettier": "prettier --write 'src/**/*.{js,ts,jsx,tsx}'",
+    "prettier-check": "prettier --check 'src/**/*.{js,ts,jsx,tsx}'"
+  },
+  "keywords": [
+    "rust",
+    "typescript",
+    "results",
+    "error",
+    "ok",
+    "success"
+  ],
+  "author": "isidornygren",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-dabapps": "github:dabapps/tslint-config-dabapps#v0.5.5",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "typedoc-plugin-markdown": "^2.1.0"
+  }
+}
